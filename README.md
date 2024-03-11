@@ -19,11 +19,28 @@ Importante lembrar que precisam estar sicronizados nas versões PHP x Composer n
 
 1º Baixar do github
 
-2º Rodar o projeto no VSCode: 
+2º Pegar o arquivo **".env.example"** e copiar o conteudo em um novo arquivo com o nome **".env"**.
 
-**php artisan serve**
+3º Rodar o comando para instalar o Composer:
 
-3º Verificar se obteve sucesso. 
+```sh
+composer install
+```
+
+
+4º Rodar o comando para gerar a key específica do projeto:
+
+```sh
+php artisan key:generate  
+```
+
+5º Rodar o projeto no VSCode: 
+
+```sh
+php artisan serve
+```
+
+6º Verificar na porta específica se obteve sucesso e o projeto está rodando. 
 
 
 
