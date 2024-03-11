@@ -9,8 +9,9 @@ class PontosTuristicosController extends Controller
     
 public function index(){
 
+// dd('Listar os Pontos Turísticos');
 
-
+return view("turisticos.index");
 
     
 }
