@@ -9,5 +9,13 @@
     
 
 <h1>Lista de Pontos Turísticos</h1>
+
+
+<a href = "{{route('PontosTuristicos.show')}}">Visualizar</a></br>
+<a href = "{{route('PontosTuristicos.create')}}">Cadastrar</a></br>
+<a href = "{{route('PontosTuristicos.edit')}}">Editar</a></br>
+<a href = "{{route('PontosTuristicos.destroy')}}">Deletar</a></br>
+
+
 </body>
 </html>

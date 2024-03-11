@@ -19,10 +19,10 @@ Route::get('/', function () {
 
 //Rotas para pegar os pontos turísticos:
 
-Route::get('/index-turismo',[PontosTuristicosController::class,'index']);
-Route::get('/show-detalhes-turismo',[PontosTuristicosController::class,'show']);
-Route::get('/create-turismo',[PontosTuristicosController::class,'create']);
-Route::post('/store-novo-registro-turismo',[PontosTuristicosController::class,'store']);
-Route::get('/edit-detalhes-turismo',[PontosTuristicosController::class,'edit']);
-Route::put('/put-detalhes-turismo',[PontosTuristicosController::class,'update']);
-Route::delete('/delete-turismo',[PontosTuristicosController::class,'destroy']);
+Route::get('/index-turismo',[PontosTuristicosController::class,'index']) -> name("PontosTuristicos.index");
+Route::get('/show-detalhes-turismo',[PontosTuristicosController::class,'show'])-> name("PontosTuristicos.show");;
+Route::get('/create-turismo',[PontosTuristicosController::class,'create'])-> name("PontosTuristicos.create");;
+Route::post('/store-novo-registro-turismo',[PontosTuristicosController::class,'store'])-> name("PontosTuristicos.store");;
+Route::get('/edit-detalhes-turismo',[PontosTuristicosController::class,'edit'])-> name("PontosTuristicos.edit");;
+Route::put('/update-detalhes-turismo',[PontosTuristicosController::class,'update'])-> name("PontosTuristicos.update");;
+Route::delete('/delete-turismo',[PontosTuristicosController::class,'destroy'])-> name("PontosTuristicos.destroy");;

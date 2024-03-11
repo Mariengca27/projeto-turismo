@@ -7,5 +7,11 @@
 </head>
 <body>
     
+
+
+<a href = "{{route('PontosTuristicos.index')}}">Listar</a></br>
+<a href = "{{route('PontosTuristicos.create')}}">Cadastrar</a></br>
+<a href = "{{route('PontosTuristicos.edit')}}">Editar</a></br>
+
 </body>
 </html>

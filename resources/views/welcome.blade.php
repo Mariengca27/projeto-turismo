@@ -14,5 +14,15 @@
     </head>
     <body>
        <h1>Teste Conteúdo do projeto</h1>
+
+
+       <a href = "{{route('PontosTuristicos.index')}}">Listar os Pontos Turísticos</a>
+    
+   
+    
+    
+    
+    
+    
     </body>
 </html>
