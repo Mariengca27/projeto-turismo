@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\PontosTuristicosController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+//Rotas para pegar os pontos turísticos:
+
+Route::get('/index-turismo',[PontosTuristicosController::class,'index']);
+
